@@ -8,6 +8,7 @@ public class SystemConstant {
     public static final String LONG_DATE_FORMAT        = "yyyy-MM-dd HH:mm:ss";
 
     public static final String FE_SPRING_PURE = "springpure/";
+    public static final String FE_VUE         = "vue/";
     public static final String FE_ANGULAR     = "angular/";
     public static final String FE_REACT       = "react/";
     public static final String FE_THYMELEAF   = "thymeleaf/";

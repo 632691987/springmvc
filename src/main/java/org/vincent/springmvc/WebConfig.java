@@ -47,6 +47,7 @@ public class WebConfig extends WebMvcConfigurationSupport {
          * addResourceLocations 的值是说在webapp 文件夹下面得目录路径
          */
         registry.addResourceHandler("/springpure/resources/**").addResourceLocations("/springpure/resources/");
+        registry.addResourceHandler("/vue/resources/**").addResourceLocations("/vue/resources/");
     }
 
     @Override
