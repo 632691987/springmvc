@@ -14,7 +14,7 @@ import java.util.function.Consumer;
 @ComponentScan(DozerConfig.DOZER_PACKAGE)
 public class DozerConfig {
 
-    public static final String DOZER_PACKAGE = "tina.coffee.dozer";
+    public static final String DOZER_PACKAGE = "org.vincent.springmvc.dozer";
 
     @Bean
     public DozerMapper dozerMapper(Set<MappingProvider> mapperConfigurations) {
